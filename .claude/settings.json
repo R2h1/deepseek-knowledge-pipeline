@@ -7,7 +7,7 @@
   "skills": {
     "deepseek-knowledge-pipeline": {
       "name": "deepseek-knowledge-pipeline",
-      "path": "C:\\Users\\14616\\.claude\\skills\\deepseek-knowledge-pipeline",
+      "path": ".claude/skills/deepseek-knowledge-pipeline",
       "description": "DeepSeek Chat 会话知识沉淀管线。从 DeepSeek 聊天记录中提取知识、合并同类会话、产出知识文章或工具文档。交互式管线，每步需用户确认。"
     }
   }

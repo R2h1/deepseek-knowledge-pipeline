@@ -9,8 +9,9 @@
 const BASE_URL = 'https://chat.deepseek.com';
 const OUTPUT_DIR = 'deepseek-chats';
 
-// 从 Chrome 网络请求中获取的认证信息
-const AUTH_TOKEN = 'Bearer bSR0tceKaUeus+1W2Ftd46d/HmbIOMVlJPBA4i8SlF1MJCtt+HQ5umMuwN7nzSgr';
+// 从环境变量获取认证信息（发布到 GitHub 时使用）
+// 使用：set DEEPSEEK_AUTH_TOKEN=Bearer xxxx && node scripts/export-deepseek-chats.mjs
+const AUTH_TOKEN = process.env.DEEPSEEK_AUTH_TOKEN;
 
 const headers = {
   'Authorization': AUTH_TOKEN,

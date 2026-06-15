@@ -1,4 +1,4 @@
-# Conan 项目说明
+# deepseek-knowledge-pipeline
 
 ## 🎯 DeepSeek 会话 → 知识库文章
 
